@@ -92,21 +92,21 @@ div * > h6 * {
 div[class] {
   color: #eee !important;
   background-color: inherit !important;
-  border-width: 0px !important;
+  border-width: 1px !important;
   border-radius: 5px !important;  
 }
 
 div[id] {
   color: #eee !important;
   background-color: inherit !important;
-  border-width: 0px !important;
+  border-width: 1px !important;
   border-radius: 5px !important;
 }
 
 div[style]:not(link) {
   color: #eee !important;
   background-color: #073642 !important;
-  border-width: 0px !important;
+  border-width: 1px !important;
   border-radius: 5px !important;
 }
 
