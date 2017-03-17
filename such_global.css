@@ -11,7 +11,8 @@ browser[type="content-primary"] {
 
 /*No background images. try to exclude icons, other misc items. */
 
-*:not(:empty):not([onclick*="open"]):not(span):not([class*="stars"]):not([id*="stars"]):not([id="rating"]):not([class="rating"]):not([class*="prite"]):not([id*="prite"]):not([id*="lbImage"]) {
+*:not(:empty):not([onclick*="open"]):not(span):not([class*="stars"]):not([id*="stars"]):not([id="rating"]):not([class="rating"]):not([class*="prite"]):not([id*="prite"]):not([id*="lbImage"]) 
+{
   background-image: none !important;
 }
 
@@ -92,21 +93,21 @@ div * > h6 * {
 div[class] {
   color: #eee !important;
   background-color: inherit !important;
-  border-width: 1px !important;
+  border-width: 0px !important;
   border-radius: 5px !important;  
 }
 
 div[id] {
   color: #eee !important;
   background-color: inherit !important;
-  border-width: 1px !important;
+  border-width: 0px !important;
   border-radius: 5px !important;
 }
 
 div[style]:not(link) {
   color: #eee !important;
   background-color: #073642 !important;
-  border-width: 1px !important;
+  border-width: 0px !important;
   border-radius: 5px !important;
 }
 
@@ -233,7 +234,7 @@ table {
 }
 
 th {
-  background-color: inherit !important;
+  background-color: #7d9002 !important;
   color: #c1121b !important;
 }
 
@@ -257,7 +258,7 @@ color: #ddd !important;
 }
 
 caption {
-  background-color: inherit !important;
+  background-color: #7d9002 !important;
   text-decoration: none !important;
   color: #ddd !important;
 }
