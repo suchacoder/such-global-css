@@ -406,7 +406,7 @@ html:root button {
   background-color: #024354 !important;
   border-width: 2px !important;
   border-color: #006666 !important;
-  border-radius: 3px !important;
+  border-radius: 5px !important;
   font-weight: bold !important;  
 }
 
@@ -418,13 +418,13 @@ html:root button:hover {
   background-color: #006666 !important;
   border-width: 2px !important;
   border-color: #006666 !important;
-  border-radius: 3px !important;
+  border-radius: 5px !important;
   font-weight: bold !important;
 }
 
 html:root input[type="image"] {
   opacity: .95 !important;
-  border-radius: 3px !important;
+  border-radius: 5px !important;
 }
 
 html:root input[type="image"]:hover {
@@ -448,6 +448,7 @@ optgroup {
 
 address {
   background-color: #006666 !important;
+  border-radius: 5px !important;
 }
 
 hr {
@@ -489,7 +490,7 @@ aside {
   border-left-style: hidden !important;
   border-width: 0px !important;
   border-color: #7d9002 !important;
-  border-radius: 3px !important;
+  border-radius: 5px !important;
   padding: 5px !important;
 }
 
