@@ -120,7 +120,7 @@ div[style]:not(link) {
 }
 
 p {
-  color: #eee !important;
+  color: #aaa !important;
   border-top-style: hidden !important;
   border-right-style: hidden !important;
   border-bottom-style: hidden !important;
@@ -133,6 +133,7 @@ p {
 span {
   color: #ddd !important;
   background-color: inherit !important;
+  border-radius: 5px !important;
 }
 
 section {
@@ -141,7 +142,7 @@ section {
 }
 
 article {
-  color: #ddd !important;
+  color: #aaa !important;
   background-color: #073642 !important;
   border-radius: 5px !important;
   padding: 5px !important;
