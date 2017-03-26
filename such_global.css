@@ -191,6 +191,7 @@ td[style*="inset"][class="alt2"] {
   background-color: #003945 !important;
   color: #ddd !important;
   font-weight: bold !important;
+  padding: 1px !important;
 } 
 
 main {
