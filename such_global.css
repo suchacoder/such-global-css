@@ -156,6 +156,7 @@ form {
   margin: auto !important;
 }
 
+strong,
 em,
 b {
   color: #fff !important;
@@ -184,6 +185,7 @@ mark,
 code,
 pre,
 blockquote,
+tt,
 [class*="quote"],
 td[style*="inset"][class="alt2"] {
   background-color: #003945 !important;
@@ -412,6 +414,8 @@ html:root button {
   border-color: #006666 !important;
   border-radius: 5px !important;
   font-weight: bold !important;  
+  -moz-appearance: none !important;
+  -webkit-appearance: none !important;
 }
 
 html:root input[type="button"]:hover,
@@ -424,16 +428,8 @@ html:root button:hover {
   border-color: #006666 !important;
   border-radius: 5px !important;
   font-weight: bold !important;
-}
-
-html:root input[type="image"] {
-  opacity: .95 !important;
-  border-radius: 5px !important;
-}
-
-html:root input[type="image"]:hover {
-  opacity: 1 !important;
-  border-radius: 5px !important;
+  -moz-appearance: none !important;
+  -webkit-appearance: none !important;
 }
 
 /* Drop-down menu */
