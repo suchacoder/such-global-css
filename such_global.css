@@ -27,6 +27,7 @@ html:root > body > * > * > * > *:not(input):not([onclick]) > div:not(:empty):not
 html,
 body {
   background-color: #052832 !important;
+  color: #ddd !important;
 }
 
 /* :::::::: Headings + Header :::::::: */
@@ -232,16 +233,19 @@ table {
   background-color: inherit !important; 
   color: #8c95dd !important;
   font-weight: bold !important;
+  border-radius: 5px !important;
 }
 
 th {
   background-color: #7d9002 !important;
-  color: #c1121b !important;
+  color: #ddd !important;
+  padding: 5px !important;
 }
 
 td {
   background-color: inherit !important;
   color: #428bca !important;
+  padding: 5px !important;
 }
 
 td > span {
