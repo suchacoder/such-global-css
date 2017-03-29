@@ -155,10 +155,12 @@ form {
   margin: auto !important;
 }
 
+i,
 strong,
 em,
 b {
-  color: #fff !important;
+  color: #ddd !important;
+  font-weight: bold !important;
 }
 
 cite {
@@ -264,13 +266,14 @@ td > span {
 }
 
 tr {
-  background-color: #002b36 !important;
+  background-color: #024354 !important;
   color: #ddd !important;
   border-radius: 5px !important;
 }
 
 tbody {
   color: #ddd !important;
+  border-radius: 5px !important;
 }
 
 caption {
@@ -289,6 +292,13 @@ html body input:not([type="image"]){
   outline: inherit !important;
 }
 
+#login-existing,
+div.form-controls > table > tbody > tr > td > input,
+html body input[type="url"],
+html body input[type="password"],
+html body input[type="email"],
+html body input[type="search"],
+html body input[type="text"],
 html body textarea {
   background-color: #073642 !important;
   color: #ddd !important;
@@ -299,91 +309,14 @@ html body textarea {
   outline: inherit !important;
 }
 
+#login-existing:hover,
+div.form-controls > table > tbody > tr > td > input:hover,
+html body input[type="url"]:hover,
+html body input[type="password"]:hover,
+html body input[type="email"]:hover,
+html body input[type="search"]:hover,
+html body input[type="text"]:hover,
 html body textarea:hover {
-  background-color: #024354 !important;
-  color: #fff !important;
-  border: solid 2px #7d9002 !important;
-  -moz-appearance: textfield !important;
-  -webkit-appearance: textarea !important;
-  opacity: 1 !important;
-  outline: inherit !important;
-}
-
-html body input[type="text"] {
-  background-color: #073642 !important;
-  color: #ddd !important;
-  border: solid 2px #006666 !important;
-  opacity: .95 !important;
-  outline: inherit !important;
-  -moz-appearance: textfield !important;
-  -webkit-appearance: textarea !important;
-  outline: inherit !important;
-}
-
-html body input[type="text"]:hover {
-  background-color: #024354 !important;
-  color: #fff !important;
-  border: solid 2px #7d9002 !important;
-  -moz-appearance: textfield !important;
-  -webkit-appearance: textarea !important;
-  opacity: 1 !important;
-  outline: inherit !important;
-}
-
-html body input[type="search"] {
-  background-color: #073642 !important;
-  color: #ddd !important;
-  border: solid 2px #006666 !important;
-  opacity: .95 !important;
-  outline: inherit !important;
-  -moz-appearance: textfield !important;
-  -webkit-appearance: textarea !important;
-  outline: inherit !important;
-}
-
-html body input[type="search"]:hover {
-  background-color: #024354 !important;
-  color: #fff !important;
-  border: solid 2px #7d9002 !important;
-  -moz-appearance: textfield !important;
-  -webkit-appearance: textarea !important;
-  opacity: 1 !important;
-  outline: inherit !important;
-}
-
-html body input[type="email"] {
-  background-color: #073642 !important;
-  color: #ddd !important;
-  border: solid 2px #006666 !important;
-  opacity: .95 !important;
-  outline: inherit !important;
-  -moz-appearance: textfield !important;
-  -webkit-appearance: textarea !important;
-  outline: inherit !important;
-}
-
-html body input[type="email"]:hover {
-  background-color: #024354 !important;
-  color: #fff !important;
-  border: solid 2px #7d9002 !important;
-  -moz-appearance: textfield !important;
-  -webkit-appearance: textarea !important;
-  opacity: 1 !important;
-  outline: inherit !important;
-}
-
-html body input[type="password"] {
-  background-color: #073642 !important;
-  color: #ddd !important;
-  border: solid 2px #006666 !important;
-  opacity: .95 !important;
-  outline: inherit !important;
-  -moz-appearance: textfield !important;
-  -webkit-appearance: textarea !important;
-  outline: inherit !important;
-}
-
-html body input[type="password"]:hover {
   background-color: #024354 !important;
   color: #fff !important;
   border: solid 2px #7d9002 !important;
@@ -660,4 +593,10 @@ body > ol > li > ul > li > p {
 
 #ogsyscontent > table > tbody > tr > td {
   border-radius: 10px !important;
+}
+
+/* A fix for facebook loging page */
+
+#pageFooter > div {
+  background-color: #052832 !important;
 }
