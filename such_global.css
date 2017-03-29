@@ -50,43 +50,51 @@ h1 {
 h2 { 
   color: #428bca !important;
   font-weight: bold !important;
+  background-color: inherit !important;
 } 
 
 h3,
 h4 {
   color: #d74937 !important;
   font-weight: bold;
+  background-color: inherit !important;
 }
 
 h5,
 h6 {
   color: #7d9002 !important;
   font-weight: bold !important;
+  background-color: inherit !important;
 }
 
 div * > h2 * {
   color: #428bca !important;
   font-weight: bold !important;
+  background-color: inherit !important;
 }
 
 div * > h3 * {
   color: #d74937 !important;
   font-weight: bold !important;
+  background-color: inherit !important;
 }
 
 div * > h4 * {
   color: #d74937 !important;
   font-weight: bold !important;
+  background-color: inherit !important;
 }
 
 div * > h5 * {
   color: #7d9002 !important;
   font-weight: bold !important;
+  background-color: inherit !important;
 }
 
 div * > h6 * {
   color: #7d9002 !important;
   font-weight: bold !important;
+  background-color: inherit !important;
 }
 
 /* Give id's BG hopefully */
@@ -121,7 +129,8 @@ div[style]:not(link) {
 }
 
 p {
-  color: #aaa !important;
+  color: #77ab59 !important;
+  background-color: inherit !important;
   border-top-style: hidden !important;
   border-right-style: hidden !important;
   border-bottom-style: hidden !important;
@@ -270,7 +279,7 @@ tr {
 }
 
 tbody {
-color: #ddd !important;
+  color: #ddd !important;
 }
 
 caption {
