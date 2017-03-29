@@ -185,14 +185,22 @@ mark,
 code,
 pre,
 blockquote,
-tt,
 [class*="quote"],
 td[style*="inset"][class="alt2"] {
   background-color: #003945 !important;
   color: #ddd !important;
   font-weight: bold !important;
-  padding: 1px !important;
+  padding-left: 2px !important;
+  padding-right: 2px !important;
 } 
+
+tt {
+  background-color: #006666 !important;
+  color: #ddd !important;
+  font-weight: bold !important;
+  padding-left: 2px !important;
+  padding-right: 2px !important;
+}
 
 main {
   background-color: #052832 !important;
@@ -247,7 +255,7 @@ th {
 
 td {
   background-color: inherit !important;
-  color: #428bca !important;
+  color: #576e74 !important;
   padding: 5px !important;
 }
 
@@ -256,7 +264,7 @@ td > span {
 }
 
 tr {
-  background-color: inherit !important;
+  background-color: #002b36 !important;
   color: #ddd !important;
   border-radius: 5px !important;
 }
@@ -453,7 +461,7 @@ address {
 }
 
 hr {
-  background-color: #444 !important
+  background-color: #9360a2 !important;
 }
 
 /*currently viewed page*/
