@@ -48,51 +48,41 @@ h1 {
 }
 
 h2 { 
-  color: #428bca !important;
+  color: #d74937 !important;
   font-weight: bold !important;
   background-color: inherit !important;
 } 
 
 h3,
 h4 {
-  color: #d74937 !important;
+  color: #c45aec !important;
   font-weight: bold;
   background-color: inherit !important;
 }
 
 h5,
 h6 {
-  color: #7d9002 !important;
+  color: #b58900 !important;
   font-weight: bold !important;
   background-color: inherit !important;
 }
 
 div * > h2 * {
-  color: #428bca !important;
-  font-weight: bold !important;
-  background-color: inherit !important;
-}
-
-div * > h3 * {
   color: #d74937 !important;
   font-weight: bold !important;
   background-color: inherit !important;
 }
 
+div * > h3 *,
 div * > h4 * {
-  color: #d74937 !important;
+  color: #c45aec !important;
   font-weight: bold !important;
   background-color: inherit !important;
 }
 
-div * > h5 * {
-  color: #7d9002 !important;
-  font-weight: bold !important;
-  background-color: inherit !important;
-}
-
+div * > h5 *,
 div * > h6 * {
-  color: #7d9002 !important;
+  color: #b58900 !important;
   font-weight: bold !important;
   background-color: inherit !important;
 }
@@ -129,7 +119,7 @@ div[style]:not(link) {
 }
 
 p {
-  color: #77ab59 !important;
+  color: #547789 !important;
   background-color: inherit !important;
   border-top-style: hidden !important;
   border-right-style: hidden !important;
@@ -266,6 +256,7 @@ td {
   background-color: inherit !important;
   color: #576e74 !important;
   padding: 5px !important;
+  border-radius: 5px !important;
 }
 
 td > span {
@@ -635,3 +626,38 @@ img:hover {
 }
 
 /* :::::::: Specific Fixes :::::::: */
+
+/* A fix for opengroup.org just to give a diferent color to li ol ul elements */
+
+body > * > * > p,
+body > * > * > p > * {
+  color: #9360a2 !important;
+  background-color: inherit !important;
+  font-weight: bold !important;
+}
+
+body > ul > li > ul > li > p {
+  color: #a03470 !important;
+  background-color: inherit !important;
+  font-weight: bold !important;
+}
+
+body > ul > li > ul > li > ul > li > p {
+  color: #8c95dd !important;
+  background-color: inherit !important;
+  font-weight: bold !important;
+}
+
+body > ol > li > ul > li > p {
+  color: #a03470 !important;
+  background-color: inherit !important;
+  font-weight: bold !important;
+}
+
+#container {
+  background-color: #024354 !important;
+}
+
+#ogsyscontent > table > tbody > tr > td {
+  border-radius: 10px !important;
+}
