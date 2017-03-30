@@ -9,7 +9,7 @@ browser[type="content-primary"] {
  
 @-moz-document url-prefix(http://), url-prefix(https://), url-prefix(ftp://), url-prefix(file://) {
 
-/*No background images. try to exclude icons, other misc items. */
+/* No background images. try to exclude icons, other misc items */
 
 *:not(:empty):not([onclick*="open"]):not(span):not([class*="stars"]):not([id*="stars"]):not([id="rating"]):not([class="rating"]):not([class*="prite"]):not([id*="prite"]):not([id*="lbImage"]) 
 {
@@ -103,12 +103,12 @@ div[id] {
   border-radius: 5px !important;
 }
 
-div[style]:not(link) {
+/*div[style]:not(link) {
   color: #eee !important;
   background-color: #073642 !important;
   border-width: 0px !important;
   border-radius: 5px !important;
-}
+}*/
 
 /* :::::::: Text Presentation :::::::: */
 
@@ -545,7 +545,6 @@ img:hover {
 /* :::::::: Specific Fixes :::::::: */
 
 /* A fix for opengroup.org just to give a diferent color to li ol ul elements */
-
 body > * > * > p,
 body > * > * > p > * {
   color: #9360a2 !important;
@@ -579,14 +578,65 @@ body > ol > li > ul > li > p {
   border-radius: 10px !important;
 }
 
-/* A fix for facebook loging page */
-
+/* A fix for facebook buttons and images color consistency */
 #pageFooter > div {
   background-color: #052832 !important;
 }
 
-/* A fix for facebook buttons color consistency */
-
+li._2xr > div > div > a > div,
+._1k67 > a,
+div._4bl7,
 div.ego_column > div > div > div > div {
   background: transparent !important;
+}
+
+/* A fix for github for color consistenct */
+.ajax-pagination-form {
+  background-color: #073642!important;
+}
+
+#lightbox {
+  background: transparent !important;
+}
+
+/* A fix for codepen images */
+div.single-collection > div > a,
+div.single-project > div > a,
+div.single-pen > div > a {
+  background: transparent !important;
+}
+
+/* Counple of fixes for Reddit */
+#sr-header-area {
+  background-color: #024354 !important;
+}
+
+.md > p > a {
+  background: transparent !important;
+}
+
+/* A small fix for omgubuntu */
+.rslides_tabs {
+  background: transparent !important;
+}
+
+/* Small fix for extratorrent */
+table.tl > thead > tr > th > table > tbody > tr > td {
+  background-color: #7d9002 !important;
+}
+
+/* A fix for imgur when hover images */
+#imagelist > * > * > * > a {
+  background: transparent !important;
+}
+
+/* Coule of tweaks for Arch wiki */
+#mw-content-text > div {
+  border-width: 2px !important;
+  border-color: #a03470 !important;
+  background-color: #003945 !important;
+}
+
+#mw-content-text > div > strong {
+  color: #e02c6d  !important;
 }
