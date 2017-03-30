@@ -584,3 +584,9 @@ body > ol > li > ul > li > p {
 #pageFooter > div {
   background-color: #052832 !important;
 }
+
+/* A fix for facebook buttons color consistency */
+
+div.ego_column > div > div > div > div {
+  background: transparent !important;
+}
