@@ -590,7 +590,11 @@ div.ego_column > div > div > div > div {
   background: transparent !important;
 }
 
-/* A fix for github for color consistenct */
+/* A fix for github for color consistenct and a h1 color */
+.alt-h0 {
+  color: #e02c6d !important;
+}
+
 .ajax-pagination-form {
   background-color: #073642!important;
 }
