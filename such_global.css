@@ -282,6 +282,7 @@ caption {
 
 /* anonymous divs */
 
+input,
 #login-existing,
 div.form-controls > table > tbody > tr > td > input,
 html body input[type="url"],
@@ -299,6 +300,7 @@ html body textarea {
   outline: inherit !important;
 }
 
+input:hover,
 #login-existing:hover,
 div.form-controls > table > tbody > tr > td > input:hover,
 html body input[type="url"]:hover,
@@ -652,4 +654,7 @@ table.tl > thead > tr > th > table > tbody > tr > td {
 
 #searchform {
   background-color: #052832 !important;
+}
+.O1Wnce.hLfJQb {
+  background: transparent !important;
 }
