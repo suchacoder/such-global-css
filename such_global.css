@@ -630,13 +630,17 @@ table.tl > thead > tr > th > table > tbody > tr > td {
   background: transparent !important;
 }
 
-/* Coule of tweaks for Arch wiki */
+/* Couple of tweaks for Arch wiki */
 #mw-content-text > div {
   border-width: 2px !important;
-  border-color: #a03470 !important;
+  border-color: #49796b !important;
   background-color: #003945 !important;
 }
 
 #mw-content-text > div > strong {
   color: #e02c6d  !important;
+}
+
+#searchform {
+  background-color: #052832 !important;
 }
