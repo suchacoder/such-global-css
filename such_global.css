@@ -641,11 +641,15 @@ table.tl > thead > tr > th > table > tbody > tr > td {
   background: transparent !important;
 }
 
-/* Couple of tweaks for Arch wiki */
+/* Couple of tweaks and a fix for Arch wiki */
 #mw-content-text > div {
   border-width: 2px !important;
   border-color: #49796b !important;
   background-color: #003945 !important;
+}
+
+#archnavbarlogo > h1 > a {
+  display: none !important;
 }
 
 #mw-content-text > div > strong {
@@ -655,4 +659,3 @@ table.tl > thead > tr > th > table > tbody > tr > td {
 #searchform {
   background-color: #052832 !important;
 }
-
