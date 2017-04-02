@@ -11,21 +11,23 @@ browser[type="content-primary"] {
 
 /* No background images. try to exclude icons, other misc items */
 
-*:not(:empty):not([onclick*="open"]):not(span):not([class*="stars"]):not([id*="stars"]):not([id="rating"]):not([class="rating"]):not([class*="prite"]):not([id*="prite"]):not([id*="lbImage"]) 
+*:not([class*="lb-nav"]):not([class*="yt-thumb-clip"]):not([class*="yt-thumb-square"]):not([class*="video-thumb"]):not([class*="yt-thumb"]):not([class*="yt-thumb-27"]):not([id*="player"]):not([id*="placeholder-player"]):not([class*="player-api"]):not([id*="theater-background"]):not([class*="layer"]):not([id*="lightbox-nav"]):not([id*="imageContainer"]):not(link):not(:empty):not([onclick*="open"]):not(span):not([class*="stars"]):not([id*="stars"]):not([id="rating"]):not([class="rating"]):not([class*="prite"]):not([id*="prite"]):not([id*="lbImage"]) 
 {
   background-image: none !important;
 }
 
 /* Try to contrast containers */
 
-html:root > body > * > * > * > *:not(input):not([onclick]) > div:not(:empty):not([id]) {
+html:root > body > * > * > * > * > div:not([class*="promo-content"]):not([class*="lb-nav"]):not([class*="yt-thumb-clip"]):not([class*="yt-thumb-square"]):not([class*="video-thumb"]):not([class*="yt-thumb"]):not([class*="yt-thumb-27"]):not([id*="player"]):not([id*="placeholder-player"]):not([class*="player-api"]):not([id*="theater-background"]):not([class*="layer"]):not([id*="lightbox-nav"]):not([id*="imageContainer"]):not(input):not([onclick]):not(:empty):not([id]):not([onclick*="open"]):not(span):not([class*="stars"]):not([id*="stars"]):not([id="rating"]):not([class="rating"]):not([class*="prite"]):not([id*="prite"]):not([id*="lbImage"])
+{
   background: none #073642 !important;
 }
 
 /* Basic Bodies */
 
 html,
-body {
+body:not([class*="yt-thumb-clip"]):not([class*="yt-thumb-square"]):not([class*="video-thumb"]):not([class*="yt-thumb"]):not([class*="yt-thumb-27"]):not([id*="player"]):not([id*="placeholder-player"]):not([class*="player-api"]):not([id*="theater-background"]):not([class*="layer"]):not([id*="lightbox-nav"]):not([id*="imageContainer"]):not(:empty):not([onclick*="open"]):not(span):not([class*="stars"]):not([id*="stars"]):not([id="rating"]):not([class="rating"]):not([class*="prite"]):not([id*="prite"]):not([id*="lbImage"]) 
+{
   background-color: #052832 !important;
   color: #ddd !important;
 }
@@ -39,7 +41,7 @@ header,
 #header {
   color: #ddd !important;
   background: inherit !important;
-  font-weight: bold;
+  font-weight: bold !important;
 }
 
 h1 {
@@ -56,7 +58,7 @@ h2 {
 h3,
 h4 {
   color: #c45aec !important;
-  font-weight: bold;
+  font-weight: bold !important;
   background-color: inherit !important;
 }
 
@@ -89,21 +91,24 @@ div * > h6 * {
 
 /* Give id's BG hopefully */
 
-div[class] {
+div[class]:not([class*="promo-content"]):not([class*="lb-nav"]):not([class*="yt-thumb-clip"]):not([class*="yt-thumb-square"]):not([class*="video-thumb"]):not([class*="yt-thumb"]):not([class*="yt-thumb-27"]):not([id*="player"]):not([id*="placeholder-player"]):not([class*="player-api"]):not([id*="theater-background"]):not([class*="layer"]):not([id*="lightbox-nav"]):not([id*="imageContainer"]):not(link):not(:empty):not([onclick*="open"]):not(span):not([class*="stars"]):not([id*="stars"]):not([id="rating"]):not([class="rating"]):not([class*="prite"]):not([id*="prite"]):not([id*="lbImage"])
+{
   color: #eee !important;
   background-color: inherit !important;
   border-width: 0px !important;
   border-radius: 5px !important;  
 }
 
-div[id] {
+div[id]:not([class*="promo-content"]):not([class*="lb-nav"]):not([class*="yt-thumb-clip"]):not([class*="yt-thumb-square"]):not([class*="video-thumb"]):not([class*="yt-thumb"]):not([class*="yt-thumb-27"]):not([id*="player"]):not([id*="placeholder-player"]):not([class*="player-api"]):not([id*="theater-background"]):not([class*="layer"]):not([id*="lightbox-nav"]):not([id*="imageContainer"]):not(link):not(:empty):not([onclick*="open"]):not(span):not([class*="stars"]):not([id*="stars"]):not([id="rating"]):not([class="rating"]):not([class*="prite"]):not([id*="prite"]):not([id*="lbImage"])
+{
   color: #eee !important;
   background-color: inherit !important;
   border-width: 0px !important;
   border-radius: 5px !important;
 }
 
-div[style]:not(link) {
+div[style]:not([class*="promo-content"]):not([class*="lb-nav"]):not([class*="yt-thumb-clip"]):not([class*="yt-thumb-square"]):not([class*="video-thumb"]):not([class*="yt-thumb"]):not([class*="yt-thumb-27"]):not([id*="player"]):not([id*="placeholder-player"]):not([class*="player-api"]):not([id*="theater-background"]):not([class*="layer"]):not([id*="lightbox-nav"]):not([id*="imageContainer"]):not(link):not(:empty):not([onclick*="open"]):not(span):not([class*="stars"]):not([id*="stars"]):not([id="rating"]):not([class="rating"]):not([class*="prite"]):not([id*="prite"]):not([id*="lbImage"])
+{
   color: #eee !important;
   background-color: #073642 !important;
   border-width: 0px !important;
@@ -282,6 +287,7 @@ caption {
 
 /* anonymous divs */
 
+ytd-item-section-renderer.style-scope > div > ytd-shelf-renderer > div > div > yt-horizontal-list-renderer > div > ytd-button-renderer,
 input,
 #login-existing,
 div.form-controls > table > tbody > tr > td > input,
@@ -290,6 +296,8 @@ html body input[type="password"],
 html body input[type="email"],
 html body input[type="search"],
 html body input[type="text"],
+html body input[type="submit"],
+html body button[type="submit"],
 html body textarea {
   background-color: #073642 !important;
   color: #ddd !important;
@@ -300,6 +308,7 @@ html body textarea {
   outline: inherit !important;
 }
 
+ytd-item-section-renderer.style-scope > div > ytd-shelf-renderer > div > div > yt-horizontal-list-renderer > div > ytd-button-renderer:hover,
 input:hover,
 #login-existing:hover,
 div.form-controls > table > tbody > tr > td > input:hover,
@@ -308,6 +317,8 @@ html body input[type="password"]:hover,
 html body input[type="email"]:hover,
 html body input[type="search"]:hover,
 html body input[type="text"]:hover,
+html body input[type="submit"]:hover,
+html body button[type="submit"]:hover,
 html body textarea:hover {
   background-color: #024354 !important;
   color: #fff !important;
@@ -341,6 +352,7 @@ html body input[type="radio"] {
 html:root input[type="button"],
 html:root input[type="submit"],
 html:root input[type="reset"],
+html:root button[type="submit"],
 html:root button {
   color: #ddd !important;
   background-color: #024354 !important;
@@ -353,6 +365,7 @@ html:root button {
 html:root input[type="button"]:hover,
 html:root input[type="submit"]:hover,
 html:root input[type="reset"]:hover,
+html:root button[type="submit"]:hover,
 html:root button:hover {
   color: #fff !important;
   background-color: #006666 !important;
@@ -471,7 +484,7 @@ html *:after,
 html *:before {
   color: #16a085 !important;
   border-color: #006666 !important;
-  background-color: inherit !important;
+  background-color: transparent !important;
 }
 
 html * [after]:hover,
@@ -591,6 +604,7 @@ li._2xr > div > div > a > div,
 div._4bl7,
 div.ego_column > div > div > div > div {
   background: transparent !important;
+  border-width: 0px !important;
 }
 
 #pageFooter > div {
@@ -611,6 +625,7 @@ div.ego_column > div > div > div > div {
 }
 
 /* A fix for codepen images */
+.promo-content,
 div.single-collection > div > a,
 div.single-project > div > a,
 div.single-pen > div > a {
@@ -658,4 +673,49 @@ table.tl > thead > tr > th > table > tbody > tr > td {
 
 #searchform {
   background-color: #052832 !important;
+}
+
+/* Some fixes for the new youtube UI still a broken tho =( the classic UI looks fine */
+
+div.style-scope,
+ytd-browse.style-scope {
+  background-color: #052832 !important;
+}
+
+yt-formatted-string.ytd-guide-signin-promo-renderer {
+ color: #ddd  !important;
+}
+
+/* Custom styling for Fun*T webpage funtown-urt.info */
+
+.sub-header-right,
+.sub-header-left,
+.header-right,
+.header-left,
+.scapmain-right,
+.scapmain-left,
+.capmain-right,
+.capmain-left,
+.footer-right,
+.footer-left {
+  background-image: none !important;
+}
+
+.scapmain {
+  font-size: 14px !important;
+  font-weight: bold !important;
+  color: #d74937 !important;
+}
+
+
+.tbl1 {
+  font-size: 13px !important;
+}
+
+.side-body {
+  font-size: 13px !important;
+}
+
+.sub-header {
+  font-size: 15px !important;
 }
