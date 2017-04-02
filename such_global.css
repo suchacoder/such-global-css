@@ -11,14 +11,14 @@ browser[type="content-primary"] {
 
 /* No background images. try to exclude icons, other misc items */
 
-*:not([class*="lb-nav"]):not([class*="yt-thumb-clip"]):not([class*="yt-thumb-square"]):not([class*="video-thumb"]):not([class*="yt-thumb"]):not([class*="yt-thumb-27"]):not([id*="player"]):not([id*="placeholder-player"]):not([class*="player-api"]):not([id*="theater-background"]):not([class*="layer"]):not([id*="lightbox-nav"]):not([id*="imageContainer"]):not(link):not(:empty):not([onclick*="open"]):not(span):not([class*="stars"]):not([id*="stars"]):not([id="rating"]):not([class="rating"]):not([class*="prite"]):not([id*="prite"]):not([id*="lbImage"]) 
+*:not([class*="ytp-bottom"]):not([class*="ytp-tooltip-bg"]):not([class*="ytp-tooltip"]):not([class*="ytp-preview"]):not([id*="movie_player"]):not([class*="video-thumb"]):not([class*="yt-thumb-48"]):not([class*="yt-thumb-28"]):not([class*="yt-thumb-square-48"]):not([class*="yt-thumb-square-28"]):not([class*="yt-thumb-20"]):not([class*="ux-thumb-96"]):not([class*="lb-nav"]):not([class*="yt-thumb-clip"]):not([class*="yt-thumb-square"]):not([class*="video-thumb"]):not([class*="yt-thumb"]):not([class*="yt-thumb-27"]):not([id*="player"]):not([id*="placeholder-player"]):not([class*="player-api"]):not([id*="theater-background"]):not([class*="layer"]):not([id*="lightbox-nav"]):not([id*="imageContainer"]):not(link):not(:empty):not([onclick*="open"]):not(span):not([class*="stars"]):not([id*="stars"]):not([id="rating"]):not([class="rating"]):not([class*="prite"]):not([id*="prite"]):not([id*="lbImage"]) 
 {
   background-image: none !important;
 }
 
 /* Try to contrast containers */
 
-html:root > body > * > * > * > * > div:not([class*="promo-content"]):not([class*="lb-nav"]):not([class*="yt-thumb-clip"]):not([class*="yt-thumb-square"]):not([class*="video-thumb"]):not([class*="yt-thumb"]):not([class*="yt-thumb-27"]):not([id*="player"]):not([id*="placeholder-player"]):not([class*="player-api"]):not([id*="theater-background"]):not([class*="layer"]):not([id*="lightbox-nav"]):not([id*="imageContainer"]):not(input):not([onclick]):not(:empty):not([id]):not([onclick*="open"]):not(span):not([class*="stars"]):not([id*="stars"]):not([id="rating"]):not([class="rating"]):not([class*="prite"]):not([id*="prite"]):not([id*="lbImage"])
+html:root > body > * > * > * > * > div:not([class*="video-thumb"]):not([class*="yt-thumb-48"]):not([class*="yt-thumb-28"]):not([class*="yt-thumb-square-48"]):not([class*="yt-thumb-square-28"]):not([class*="yt-thumb-20"]):not([class*="ux-thumb-96"]):not([class*="promo-content"]):not([class*="lb-nav"]):not([class*="yt-thumb-clip"]):not([class*="yt-thumb-square"]):not([class*="video-thumb"]):not([class*="yt-thumb"]):not([class*="yt-thumb-27"]):not([id*="player"]):not([id*="placeholder-player"]):not([class*="player-api"]):not([id*="theater-background"]):not([class*="layer"]):not([id*="lightbox-nav"]):not([id*="imageContainer"]):not(input):not([onclick]):not(:empty):not([id]):not([onclick*="open"]):not(span):not([class*="stars"]):not([id*="stars"]):not([id="rating"]):not([class="rating"]):not([class*="prite"]):not([id*="prite"]):not([id*="lbImage"])
 {
   background: none #073642 !important;
 }
@@ -26,7 +26,7 @@ html:root > body > * > * > * > * > div:not([class*="promo-content"]):not([class*
 /* Basic Bodies */
 
 html,
-body:not([class*="yt-thumb-clip"]):not([class*="yt-thumb-square"]):not([class*="video-thumb"]):not([class*="yt-thumb"]):not([class*="yt-thumb-27"]):not([id*="player"]):not([id*="placeholder-player"]):not([class*="player-api"]):not([id*="theater-background"]):not([class*="layer"]):not([id*="lightbox-nav"]):not([id*="imageContainer"]):not(:empty):not([onclick*="open"]):not(span):not([class*="stars"]):not([id*="stars"]):not([id="rating"]):not([class="rating"]):not([class*="prite"]):not([id*="prite"]):not([id*="lbImage"]) 
+body:not([class*="video-thumb"]):not([class*="yt-thumb-48"]):not([class*="yt-thumb-28"]):not([class*="yt-thumb-square-48"]):not([class*="yt-thumb-square-28"]):not([class*="yt-thumb-20"]):not([class*="ux-thumb-96"]):not([class*="yt-thumb-clip"]):not([class*="yt-thumb-square"]):not([class*="video-thumb"]):not([class*="yt-thumb"]):not([class*="yt-thumb-27"]):not([id*="player"]):not([id*="placeholder-player"]):not([class*="player-api"]):not([id*="theater-background"]):not([class*="layer"]):not([id*="lightbox-nav"]):not([id*="imageContainer"]):not(:empty):not([onclick*="open"]):not(span):not([class*="stars"]):not([id*="stars"]):not([id="rating"]):not([class="rating"]):not([class*="prite"]):not([id*="prite"]):not([id*="lbImage"]) 
 {
   background-color: #052832 !important;
   color: #ddd !important;
@@ -91,7 +91,7 @@ div * > h6 * {
 
 /* Give id's BG hopefully */
 
-div[class]:not([class*="promo-content"]):not([class*="lb-nav"]):not([class*="yt-thumb-clip"]):not([class*="yt-thumb-square"]):not([class*="video-thumb"]):not([class*="yt-thumb"]):not([class*="yt-thumb-27"]):not([id*="player"]):not([id*="placeholder-player"]):not([class*="player-api"]):not([id*="theater-background"]):not([class*="layer"]):not([id*="lightbox-nav"]):not([id*="imageContainer"]):not(link):not(:empty):not([onclick*="open"]):not(span):not([class*="stars"]):not([id*="stars"]):not([id="rating"]):not([class="rating"]):not([class*="prite"]):not([id*="prite"]):not([id*="lbImage"])
+div[class]:not([class*="video-thumb"]):not([class*="yt-thumb-48"]):not([class*="yt-thumb-28"]):not([class*="yt-thumb-square-48"]):not([class*="yt-thumb-square-28"]):not([class*="yt-thumb-20"]):not([class*="ux-thumb-96"]):not([class*="promo-content"]):not([class*="lb-nav"]):not([class*="yt-thumb-clip"]):not([class*="yt-thumb-square"]):not([class*="video-thumb"]):not([class*="yt-thumb"]):not([class*="yt-thumb-27"]):not([id*="player"]):not([id*="placeholder-player"]):not([class*="player-api"]):not([id*="theater-background"]):not([class*="layer"]):not([id*="lightbox-nav"]):not([id*="imageContainer"]):not(link):not(:empty):not([onclick*="open"]):not(span):not([class*="stars"]):not([id*="stars"]):not([id="rating"]):not([class="rating"]):not([class*="prite"]):not([id*="prite"]):not([id*="lbImage"])
 {
   color: #eee !important;
   background-color: inherit !important;
@@ -99,7 +99,7 @@ div[class]:not([class*="promo-content"]):not([class*="lb-nav"]):not([class*="yt-
   border-radius: 5px !important;  
 }
 
-div[id]:not([class*="promo-content"]):not([class*="lb-nav"]):not([class*="yt-thumb-clip"]):not([class*="yt-thumb-square"]):not([class*="video-thumb"]):not([class*="yt-thumb"]):not([class*="yt-thumb-27"]):not([id*="player"]):not([id*="placeholder-player"]):not([class*="player-api"]):not([id*="theater-background"]):not([class*="layer"]):not([id*="lightbox-nav"]):not([id*="imageContainer"]):not(link):not(:empty):not([onclick*="open"]):not(span):not([class*="stars"]):not([id*="stars"]):not([id="rating"]):not([class="rating"]):not([class*="prite"]):not([id*="prite"]):not([id*="lbImage"])
+div[id]:not([class*="video-thumb"]):not([class*="yt-thumb-48"]):not([class*="yt-thumb-28"]):not([class*="yt-thumb-square-48"]):not([class*="yt-thumb-square-28"]):not([class*="yt-thumb-20"]):not([class*="ux-thumb-96"]):not([class*="promo-content"]):not([class*="lb-nav"]):not([class*="yt-thumb-clip"]):not([class*="yt-thumb-square"]):not([class*="video-thumb"]):not([class*="yt-thumb"]):not([class*="yt-thumb-27"]):not([id*="player"]):not([id*="placeholder-player"]):not([class*="player-api"]):not([id*="theater-background"]):not([class*="layer"]):not([id*="lightbox-nav"]):not([id*="imageContainer"]):not(link):not(:empty):not([onclick*="open"]):not(span):not([class*="stars"]):not([id*="stars"]):not([id="rating"]):not([class="rating"]):not([class*="prite"]):not([id*="prite"]):not([id*="lbImage"])
 {
   color: #eee !important;
   background-color: inherit !important;
@@ -107,7 +107,7 @@ div[id]:not([class*="promo-content"]):not([class*="lb-nav"]):not([class*="yt-thu
   border-radius: 5px !important;
 }
 
-div[style]:not([class*="promo-content"]):not([class*="lb-nav"]):not([class*="yt-thumb-clip"]):not([class*="yt-thumb-square"]):not([class*="video-thumb"]):not([class*="yt-thumb"]):not([class*="yt-thumb-27"]):not([id*="player"]):not([id*="placeholder-player"]):not([class*="player-api"]):not([id*="theater-background"]):not([class*="layer"]):not([id*="lightbox-nav"]):not([id*="imageContainer"]):not(link):not(:empty):not([onclick*="open"]):not(span):not([class*="stars"]):not([id*="stars"]):not([id="rating"]):not([class="rating"]):not([class*="prite"]):not([id*="prite"]):not([id*="lbImage"])
+div[style]:not([class*="video-thumb"]):not([class*="yt-thumb-48"]):not([class*="yt-thumb-28"]):not([class*="yt-thumb-square-48"]):not([class*="yt-thumb-square-28"]):not([class*="yt-thumb-20"]):not([class*="ux-thumb-96"]):not([class*="promo-content"]):not([class*="lb-nav"]):not([class*="yt-thumb-clip"]):not([class*="yt-thumb-square"]):not([class*="video-thumb"]):not([class*="yt-thumb"]):not([class*="yt-thumb-27"]):not([id*="player"]):not([id*="placeholder-player"]):not([class*="player-api"]):not([id*="theater-background"]):not([class*="layer"]):not([id*="lightbox-nav"]):not([id*="imageContainer"]):not(link):not(:empty):not([onclick*="open"]):not(span):not([class*="stars"]):not([id*="stars"]):not([id="rating"]):not([class="rating"]):not([class*="prite"]):not([id*="prite"]):not([id*="lbImage"])
 {
   color: #eee !important;
   background-color: #073642 !important;
