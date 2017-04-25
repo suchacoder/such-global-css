@@ -189,16 +189,14 @@ td[style*="inset"][class="alt2"] {
   background-color: #003945 !important;
   color: #ddd !important;
   font-weight: bold !important;
-  padding-left: 2px !important;
-  padding-right: 2px !important;
+  padding: 2px !important;
 } 
 
 tt {
   background-color: #006666 !important;
   color: #ddd !important;
   font-weight: bold !important;
-  padding-left: 2px !important;
-  padding-right: 2px !important;
+  padding: 2px !important;
 }
 
 main {
@@ -307,7 +305,7 @@ html body input[type="search"]:hover,
 html body input[type="text"]:hover,
 html body input[type="submit"]:hover,
 html body textarea:hover {
-  background-color: #024354 !important;
+  background-color: #132633 !important;
   color: #fff !important;
   border: solid 2px #7d9002 !important;
   -moz-appearance: textfield !important;
@@ -504,7 +502,7 @@ a:visited * {
 
 a:hover,
 a:hover *:not(img) {
-  color: #7d9002 !important;
+  color: #e02c6d !important;
   font-weight: bold !important;
   text-decoration: none !important;
 }
@@ -650,6 +648,18 @@ table.tl > thead > tr > th > table > tbody > tr > td {
   background: transparent !important;
 }
 
+#topbar li a.topbar-icon.signin-register {
+  display: ruby-text !important;
+}
+
+.comment[data-level="0"] > .caption .caption-gradient {
+  display: contents !important;
+}
+
+#captions .comment[data-level="0"] > .caption .usertext {
+  background-color: #024354 !important;
+}
+
 /* Couple of tweaks and a fix for Arch wiki */
 #mw-content-text > div {
   border-width: 2px !important;
@@ -667,6 +677,10 @@ table.tl > thead > tr > th > table > tbody > tr > td {
 
 #searchform {
   background-color: #052832 !important;
+}
+
+#mw-content-text > div > code {
+  background-color: #7d9002 !important;
 }
 
 /* Some fixes for the new youtube UI still a broken tho =( the classic UI looks fine */
@@ -718,6 +732,10 @@ li.channels-content-item > div > div > div > a > span > span {
   font-size: 15px !important;
 }
 
+table.tbl-border > tbody > tr > td > img {
+  border-radius: 100% !important;
+}
+
 /* A small fix for google */
 
 .sfbgx,
@@ -727,6 +745,10 @@ li.channels-content-item > div > div > div > a > span > span {
 
 #logocont {
   overflow: hidden !important;
+}
+
+._KBh {
+  background-color: #024354 !important;
 }
 
 /* Some fixes for mywiki.wooledge.org */
