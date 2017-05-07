@@ -145,7 +145,8 @@ article {
   padding: 5px !important;
 }
 
-form {
+form:not([class*="signin"]):not([id*="frontpage-signup-form"]) {
+  background-color: #052832 !important;
   color: #ddd !important;
   border-radius: 5px !important;
   margin: auto !important;
@@ -278,6 +279,7 @@ caption {
 
 /* anonymous divs */
 
+button,
 #login-existing,
 div.form-controls > table > tbody > tr > td > input,
 html body input[type="url"],
@@ -286,6 +288,7 @@ html body input[type="email"],
 html body input[type="search"],
 html body input[type="text"],
 html body input[type="submit"],
+html body input[type="button"],
 html body textarea {
   background-color: #073642 !important;
   color: #ddd !important;
@@ -296,6 +299,7 @@ html body textarea {
   outline: inherit !important;
 }
 
+button:hover,
 #login-existing:hover,
 div.form-controls > table > tbody > tr > td > input:hover,
 html body input[type="url"]:hover,
@@ -304,6 +308,7 @@ html body input[type="email"]:hover,
 html body input[type="search"]:hover,
 html body input[type="text"]:hover,
 html body input[type="submit"]:hover,
+html body input[type="button"]:hover,
 html body textarea:hover {
   background-color: #132633 !important;
   color: #fff !important;
@@ -640,6 +645,10 @@ div.single-pen > div > a {
   display: contents !important;
 }
 
+#login_login-main {
+  background-color: #052832 !important;
+}
+
 /* A small fix for omgubuntu */
 .rslides_tabs {
   background: transparent !important;
@@ -785,4 +794,10 @@ table.tbl-border > tbody > tr > td > img {
   border-width: 1px !important;
   border-color: #d74937 !important;
   border-radius: 0px !important;
+}
+
+/* Urban Zone */
+
+.cluetip {
+  color: #559eb3 !important;
 }
